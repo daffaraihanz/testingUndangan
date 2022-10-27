@@ -15,6 +15,7 @@ body {
 
 button{
   background: #4A435A !important;
+  border: none !important;
 }
 
 .participants{
@@ -30,8 +31,12 @@ button{
   width: 100% !important;
 }
 
+.content1 p{
+  color: #4A435A;
+}
+
 h1{
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .fPoppins {
@@ -59,7 +64,8 @@ h1{
 }
 
 .content1{
-  margin-top: 80px;
+  margin-top: 40px;
+  margin-bottom: 10px;
 }
 
 .content1 h1{
