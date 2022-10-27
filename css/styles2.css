@@ -1,0 +1,74 @@
+
+
+body {
+    font-family: 'Playfair Display';
+    background: rgb(217, 217, 217);
+    background-image: url('./img/bg.png');
+    background-size: cover;
+    text-align: center;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 650px;
+    }
+}
+
+
+.fpoppins {
+    font-family: 'Poppins' !important;
+}
+
+.fplayfair {
+    font-family: 'Playfair Display' !important;
+}
+
+.fLobster {
+    font-family: 'Lobster' !important;
+    letter-spacing: 1px;
+    color: rgb(56, 56, 56);
+}
+
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    padding: 0;
+    margin: 0;
+}
+
+header .tanggal .borderz {
+    border: solid 3px rgb(38, 98, 64);
+    align-items: center;
+    border-left: none;
+    border-right: none;
+}
+
+header .title {
+    padding: 50px 0 20px 0;
+}
+
+.content .container,
+header .container,
+footer .container {
+    background: rgb(251, 252, 239);
+}
+
+.content .container {
+    padding: 20px 0 40px 0;
+}
+
+.content h4 {
+    font-size: 24px;
+}
+
+.primarycolor {
+    color: #472F1A;
+}
+
+footer .container {
+    padding-bottom: 40px;
+}

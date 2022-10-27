@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lobster&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Poppins:wght@600&display=swap');
+
+/* @media (min-width: 1200px) {
+  .container {
+      max-width: 650px;
+  }
+} */
+
+body {
+  font-family: 'Playfair Display';
+  background-image: url('../img/bg.png');
+  background-size: cover;
+  text-align: center;
+}
+
+button{
+  background: #4A435A !important;
+}
+
+.participants{
+  margin-top: -20px;
+}
+
+.row>*{
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.h100{
+  width: 100% !important;
+}
+
+h1{
+  font-size: 25px;
+}
+
+.fPoppins {
+  font-family: 'Poppins' !important;
+}
+
+.fPlayfair {
+  font-family: 'Playfair Display' !important;
+}
+
+.fLobster {
+  font-family: 'Lobster' !important;
+  letter-spacing: 1px;
+  color: rgb(56, 56, 56);
+}
+
+.fDancingScript{
+  font-family: 'Dancing Script';
+}
+
+
+
+.content3{
+  margin-top: -20px;
+}
+
+.content1{
+  margin-top: 80px;
+}
+
+.content1 h1{
+  color: #4A435A;
+}
+
+.content2{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -40px;
+}
+
+.bgPink{
+  background-color: #FFE1DD;
+  /* background-image: url("../img/bgpink.png"); */
+  background-size: cover;
+  height: 70px;
+  margin-top: -200px;
+}
+
+.frame{
+  position: absolute;
+  height:100vh;
+}
+
+.ornamentTopLeft{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ornamentTopRight{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.ornamentBotLeft{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.ornamentBotRight{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+/* END COVER */
